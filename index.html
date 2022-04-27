@@ -88,8 +88,13 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>本篇文章主要介绍hexo博客的基本用法以及markdown语法</p>
-<h2 id="文章部署"><a href="#文章部署" class="headerlink" title="文章部署"></a>文章部署</h2><p>执行如下命令</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+<h2 id="博客部署与更新"><a href="#博客部署与更新" class="headerlink" title="博客部署与更新"></a>博客部署与更新</h2><p>本博客部署在<a target="_blank" rel="noopener" href="https://github.com/liuSheng0/liuSheng0.github.io%E4%BB%93%E5%BA%93%E4%B8%AD">https://github.com/liuSheng0/liuSheng0.github.io仓库中</a></p>
+<ul>
+<li>分支main：用于存放页面</li>
+<li>分支hexo：用于存放hexo源码，防止丢失</li>
+</ul>
+<p>部署文章时执行如下命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">/* 在localhost:4000本地浏览修改 */</span><br><span class="line">hexo s</span><br><span class="line"></span><br><span class="line">/* 用于执行，清空、刷新、部署，更新main页面 */</span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br><span class="line"></span><br><span class="line">/* 以下命令为提交源码到hexo仓库 */</span><br><span class="line">git add .</span><br><span class="line">git commit -m &quot;更新&quot;</span><br><span class="line">git checkout hexo</span><br><span class="line">git push origin hexo</span><br></pre></td></tr></table></figure>
 
 
 
@@ -99,7 +104,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/04/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" data-id="cl2h57qma0000mwv8e3j2d6pe" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/04/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" data-id="cl2h5wnh00000fcv8c99ddf8l" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%99%E7%A8%8B/" rel="tag">教程</a></li></ul>
