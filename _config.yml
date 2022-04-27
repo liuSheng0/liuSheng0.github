@@ -68,7 +68,14 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  - Blogs: /categories/Blogs
+  - Tech: /categories/Tech
+  - Tools: /categories/Tools
+  - Other: /categories/Other
 tag_map:
+  - JavaScript: js
+  - css: css
+  - html5: html5
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
