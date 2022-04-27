@@ -5,15 +5,15 @@
 # Site
 title: 'liuSheng0的Blog'
 subtitle: '记录生活'
-description: ''
-keywords: 生活,开发
+description: '刘圣聆的博客，用于记录生活'
+keywords: 生活,开发,教程,撸猫
 author: liuSheng0
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://liusheng0.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
