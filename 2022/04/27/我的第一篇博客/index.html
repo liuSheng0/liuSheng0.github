@@ -219,7 +219,7 @@
 <li>keep主题官网：<a class="link"   target="_blank" rel="noopener" href="https://keep-docs.xpoet.cn/" >https://keep-docs.xpoet.cn/<i class="fas fa-external-link-alt"></i></a></li>
 <li>picx图片官网：<a class="link"   target="_blank" rel="noopener" href="https://picx.xpoet.cn/#/upload" >https://picx.xpoet.cn/#/upload<i class="fas fa-external-link-alt"></i></a></li>
 </ul>
-<h2 id="博客部署与更新"><a href="#博客部署与更新" class="headerlink" title="博客部署与更新"></a>博客部署与更新</h2><p><strong>github相关仓库</strong></p>
+<h2 id="博客部署与文章更新"><a href="#博客部署与文章更新" class="headerlink" title="博客部署与文章更新"></a>博客部署与文章更新</h2><p><strong>github相关仓库</strong></p>
 <p>本博客部署在 <a class="link"   target="_blank" rel="noopener" href="https://github.com/liuSheng0/liuSheng0.github.io" >https://github.com/liuSheng0/liuSheng0.github.io<i class="fas fa-external-link-alt"></i></a></p>
 <ul>
 <li>分支main：用于存放github page</li>
@@ -257,6 +257,21 @@
 
 <p><strong>若网站架构有更新，建议使用如下命令将源码存入github仓库的hexo分支</strong></p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">/* 以下命令为提交源码到hexo仓库 */</span><br><span class="line">$ git add .</span><br><span class="line">$ git commit -m &quot;更新&quot;</span><br><span class="line">$ git checkout hexo</span><br><span class="line">$ git push origin hexo</span><br></pre></td></tr></table></figure>
+
+<h2 id="常用博客功能"><a href="#常用博客功能" class="headerlink" title="常用博客功能"></a>常用博客功能</h2><h3 id="文章加密"><a href="#文章加密" class="headerlink" title="文章加密"></a>文章加密</h3><p>基于“ hexo-blog-encrypt”扩展实现</p>
+<ul>
+<li>对文章信息头使用如下关键字</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">password: xxx #设置密码为xxx</span><br><span class="line">sbstract: aaa #设置锁定时主页描述为aaa</span><br><span class="line">message: bbb #设置锁定时文章信息为bbb</span><br><span class="line">wrong_pass_message: ccc #设置密码输入错误时信息ccc</span><br><span class="line">wrong_hash_message: ddd #设置密码输入正确时信息ddd</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>或者使用“加密”tag加密文章</li>
+</ul>
+<h3 id="设置标签和分类"><a href="#设置标签和分类" class="headerlink" title="设置标签和分类"></a>设置标签和分类</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">tag: [tag1,tag2,tag3] #设置文章标签为tag1，tag2，tag3</span><br><span class="line">categories: cat #设置文章分类为cat</span><br></pre></td></tr></table></figure>
+
+<h3 id="置顶文章"><a href="#置顶文章" class="headerlink" title="置顶文章"></a>置顶文章</h3><p>文章默认以时间顺序排列，使用sticky属性来置顶文章</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sticky: 999 #值越大文章越靠前</span><br></pre></td></tr></table></figure>
+
 
         </div>
 
@@ -490,7 +505,7 @@
         <aside class="page-aside">
             <div class="post-toc-wrap">
     <div class="post-toc">
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E7%BD%91%E5%9D%80"><span class="nav-text">常用网址</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3"><span class="nav-text">博客相关</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E4%B8%8E%E6%9B%B4%E6%96%B0"><span class="nav-text">博客部署与更新</span></a></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E7%BD%91%E5%9D%80"><span class="nav-text">常用网址</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3"><span class="nav-text">博客相关</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E4%B8%8E%E6%96%87%E7%AB%A0%E6%9B%B4%E6%96%B0"><span class="nav-text">博客部署与文章更新</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E5%8D%9A%E5%AE%A2%E5%8A%9F%E8%83%BD"><span class="nav-text">常用博客功能</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86"><span class="nav-text">文章加密</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E6%A0%87%E7%AD%BE%E5%92%8C%E5%88%86%E7%B1%BB"><span class="nav-text">设置标签和分类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BD%AE%E9%A1%B6%E6%96%87%E7%AB%A0"><span class="nav-text">置顶文章</span></a></li></ol></li></ol>
     </div>
 </div>
         </aside>
