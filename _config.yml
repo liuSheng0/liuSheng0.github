@@ -124,7 +124,7 @@ search:
 # 安全
 # hexo-blog-encrypt
 encrypt:
-  abstract: 这篇文章被加密了，需要输入密码查看哦。
+  abstract: 这篇文章被加密了，需要输入密码才能查看哦。
   message: 请输入密码.
   tags:
   - {name: 加密, password: ljj790011}

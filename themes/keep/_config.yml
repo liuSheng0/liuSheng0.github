@@ -95,9 +95,9 @@ post:
   # Dependencies: hexo-wordcount (npm install hexo-wordcount)
   # See: https://github.com/willin/hexo-wordcount
   word_count:
-    enable: false
-    wordcount: false # word count, one article
-    min2read: false # time to read, one article
+    enable: true
+    wordcount: true # word count, one article
+    min2read: true # time to read, one article
 
   # Author label
   author_label:
