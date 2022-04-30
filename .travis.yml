@@ -16,7 +16,9 @@ before_install:
   - npm install hexo-cli        # 安装 hexo
 
 install:
-  - npm install                 # 安装 hexo 项目相关的依赖
+  - npm install hexo-wordcount                # 安装 hexo 项目相关的依赖
+  - npm install hexo-generator-searchdb
+  - npm install hexo-blog-encrypt
 
 # 执行脚本 
 script:                         
