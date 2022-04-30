@@ -204,7 +204,7 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fas fa-file-word"></i>&nbsp;<span>490 字</span>
+            <i class="fas fa-file-word"></i>&nbsp;<span>587 字</span>
         </span>
     
     
@@ -264,8 +264,14 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">/* 在localhost:4000本地浏览修改 */</span><br><span class="line">$ hexo s</span><br><span class="line"></span><br><span class="line">/* 用于执行，清空、刷新、部署，更新main页面 */</span><br><span class="line">$ hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
 
 <p><strong>若网站架构有更新，建议使用如下命令将源码存入github仓库的hexo分支</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">/* 以下命令为提交源码到hexo仓库 */</span><br><span class="line">$ git add .</span><br><span class="line">$ git commit -m &quot;更新&quot;</span><br><span class="line">$ git checkout hexo</span><br><span class="line">$ git push origin hexo</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">/* 以下命令为提交源码到hexo仓库 */</span><br><span class="line">$ git add .</span><br><span class="line">$ git commit -m &quot;更新&quot;</span><br><span class="line">$ git push origin hexo</span><br></pre></td></tr></table></figure>
 
+<p><strong>自动部署功能</strong></p>
+<p>通过Travis CI设置自动部署功能，可以在没有hexo环境的情况下更新博客，在github上更新md文档后，将自动部署在github page上。</p>
+<p><em>注意：可能会导致本地仓库与线上仓库内容不一致，尽量在push前执行pull操作或者使用push命令更新博客</em></p>
+<ul>
+<li>Travis CI官网： <a class="link"   target="_blank" rel="noopener" href="https://www.travis-ci.com/" >https://www.travis-ci.com/<i class="fas fa-external-link-alt"></i></a>  </li>
+</ul>
 <h2 id="常用博客功能"><a href="#常用博客功能" class="headerlink" title="常用博客功能"></a>常用博客功能</h2><h3 id="文章加密"><a href="#文章加密" class="headerlink" title="文章加密"></a>文章加密</h3><p>基于“ hexo-blog-encrypt”扩展实现</p>
 <ul>
 <li>对文章信息头使用如下关键字</li>
