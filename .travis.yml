@@ -18,7 +18,8 @@ before_install:
 install:
   - npm install hexo-wordcount                # 安装 hexo 项目相关的依赖
   - npm install hexo-generator-searchdb
-  - npm install hexo-blog-encrypt
+  - npm install --save hexo-blog-encrypt
+  - npm install --save hexo-tag-aplayer
 
 # 执行脚本 
 script:                         
