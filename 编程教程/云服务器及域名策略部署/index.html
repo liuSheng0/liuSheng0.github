@@ -9,7 +9,7 @@
     
     <title>
         
-            阿里云服务器及域名策略部署 |
+            云服务器及域名策略部署 |
         
         liuSheng0的Blog
     </title>
@@ -92,7 +92,7 @@
                     
                         <li class="menu-item">
                             <a class=""
-                               target="_blank" rel="noopener" href="https://netdisk.liusheng0.cn/"
+                               target="_blank" rel="noopener" href="https://pan.liusheng0.cn/"
                             >
                                 网盘
                             </a>
@@ -141,7 +141,7 @@
             
                 <li class="drawer-menu-item flex-center">
                     <a class=""
-                       target="_blank" rel="noopener" href="https://netdisk.liusheng0.cn/">网盘</a>
+                       target="_blank" rel="noopener" href="https://pan.liusheng0.cn/">网盘</a>
                 </li>
             
         </ul>
@@ -163,7 +163,7 @@
     <div class="article-content-container">
 
         <div class="article-title">
-            <span class="title-hover-animation">阿里云服务器及域名策略部署</span>
+            <span class="title-hover-animation">云服务器及域名策略部署</span>
         </div>
 
         
@@ -225,7 +225,7 @@
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fas fa-file-word"></i>&nbsp;<span>533 字</span>
+            <i class="fas fa-file-word"></i>&nbsp;<span>626 字</span>
         </span>
     
     
@@ -242,13 +242,13 @@
         
 
         <div class="article-content markdown-body">
-            <p>之前想要在博客添加音乐，在网上查看教程后发现可以搭建一个个人网盘系统来存储音乐外链接（当然网盘的功能不止如此），还可以通过服务器搭建个人邮箱系统等功能，就很coooool，于是就申请了阿里云域名和服务器，本篇文章主要介绍服务器的搭建和使用。</p>
+            <p>之前想要在博客添加音乐，在网上查看教程后发现可以搭建一个个人网盘系统来存储音乐外链接（当然网盘的功能不止如此），还可以通过服务器搭建个人邮箱系统等功能，就很coooool，于是就申请了阿里云域名和服务器，后来发现腾讯云服务器比较便宜，一年仅需58！本篇文章主要介绍服务器的搭建和使用。</p>
 <h2 id="策略"><a href="#策略" class="headerlink" title="策略"></a>策略</h2><p>博客地址更新：<a href="https://blog.liusheng0.cn/">https://blog.liusheng0.cn/</a></p>
 <p>使用域名解析服务，将Github page DNS解析绑定到新域名</p>
-<p>个人网盘： <a class="link"   target="_blank" rel="noopener" href="https://netdisk.liusheng0.cn/" >https://netdisk.liusheng0.cn/<i class="fas fa-external-link-alt"></i></a></p>
-<h2 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h2><h3 id="liusheng0server基本信息"><a href="#liusheng0server基本信息" class="headerlink" title="liusheng0server基本信息"></a>liusheng0server基本信息</h3><p>阿里云控制台： <a class="link"   target="_blank" rel="noopener" href="https://home.console.aliyun.com/home/dashboard/ProductAndService" >https://home.console.aliyun.com/home/dashboard/ProductAndService<i class="fas fa-external-link-alt"></i></a></p>
-<p>宝塔面板：server.liusheng0.cn:8888</p>
-<h3 id="服务器配置流程及宝塔面板安装："><a href="#服务器配置流程及宝塔面板安装：" class="headerlink" title="服务器配置流程及宝塔面板安装："></a>服务器配置流程及宝塔面板安装：</h3><h4 id="1-在阿里云购买服务器"><a href="#1-在阿里云购买服务器" class="headerlink" title="1.在阿里云购买服务器"></a>1.在阿里云购买服务器</h4><p>服务器信息</p>
+<p><a class="link"   target="_blank" rel="noopener" href="https://netdisk.liusheng0.cn/" >个人网盘<i class="fas fa-external-link-alt"></i></a>|<a class="link"   target="_blank" rel="noopener" href="https://pan.liusheng0.cn/" >备用链接<i class="fas fa-external-link-alt"></i></a></p>
+<h2 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h2><h3 id="liusheng0server基本信息"><a href="#liusheng0server基本信息" class="headerlink" title="liusheng0server基本信息"></a>liusheng0server基本信息</h3><p><a class="link"   target="_blank" rel="noopener" href="https://home.console.aliyun.com/home/dashboard/ProductAndService" >阿里云控制台<i class="fas fa-external-link-alt"></i></a>|<a class="link"   target="_blank" rel="noopener" href="https://console.cloud.tencent.com/" >腾讯云控制台<i class="fas fa-external-link-alt"></i></a></p>
+<p><a class="link"   href="server.liusheng0.cn:8888" >阿里云宝塔面板<i class="fas fa-external-link-alt"></i></a>|<a class="link"   href="txserver.liusheng0.cn:8888" >腾讯云宝塔面板<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="服务器配置流程及宝塔面板安装："><a href="#服务器配置流程及宝塔面板安装：" class="headerlink" title="服务器配置流程及宝塔面板安装："></a>服务器配置流程及宝塔面板安装：</h3><h4 id="1-购买服务器"><a href="#1-购买服务器" class="headerlink" title="1.购买服务器"></a>1.购买服务器</h4><p>阿里云服务器信息</p>
 <table>
 <thead>
 <tr>
@@ -269,18 +269,48 @@
 <td>Ubuntu 20.04 64位</td>
 </tr>
 </tbody></table>
+<p>腾讯云服务器信息</p>
+<table>
+<thead>
+<tr>
+<th>信息</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>名称</td>
+<td>liusheng0server</td>
+</tr>
+<tr>
+<td>CPU&amp;内存</td>
+<td>2核(vCPU)2 GiB</td>
+</tr>
+<tr>
+<td>操作系统</td>
+<td>CentOS 7.9 64bit</td>
+</tr>
+<tr>
+<td>控制面板</td>
+<td>宝塔Linux面板 7.8.0 腾讯云专享版</td>
+</tr>
+<tr>
+<td>系统盘</td>
+<td>40GB SSD云硬盘</td>
+</tr>
+</tbody></table>
 <h4 id="2-修改实例密码（root密码）"><a href="#2-修改实例密码（root密码）" class="headerlink" title="2.修改实例密码（root密码）"></a>2.修改实例密码（root密码）</h4><p>首次登陆需要修改root账号密码，修改后重启生效</p>
-<h4 id="3-安全组配置"><a href="#3-安全组配置" class="headerlink" title="3.安全组配置"></a>3.安全组配置</h4><p>在阿里云云服务器ECS面板管理安全组，需要添加放行端口</p>
-<h4 id="4-远程连接到阿里云服务器"><a href="#4-远程连接到阿里云服务器" class="headerlink" title="4.远程连接到阿里云服务器"></a>4.远程连接到阿里云服务器</h4><p>使用PuTTY工具</p>
+<h4 id="3-安全组-防火墙配置"><a href="#3-安全组-防火墙配置" class="headerlink" title="3.安全组/防火墙配置"></a>3.安全组/防火墙配置</h4><p>若要使用端口需要在服务器控制台提前放行，不然无法访问</p>
+<h4 id="4-远程连接到云服务器"><a href="#4-远程连接到云服务器" class="headerlink" title="4.远程连接到云服务器"></a>4.远程连接到云服务器</h4><p>使用PuTTY工具</p>
 <h4 id="5-配置宝塔"><a href="#5-配置宝塔" class="headerlink" title="5.配置宝塔"></a>5.配置宝塔</h4><p>配置宝塔面板后可以直接使用url和端口对服务器进行管理，宝塔面板还提供了许多功能</p>
 <p>宝塔面板官网： <a class="link"   target="_blank" rel="noopener" href="https://www.bt.cn/new/index.html" >https://www.bt.cn/new/index.html<i class="fas fa-external-link-alt"></i></a></p>
 <p>使用如下命令安装宝塔面板（Ubuntu 20.01）：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh &amp;&amp; sudo bash install.sh ed8484bec</span><br></pre></td></tr></table></figure>
 
 <p>安装成功后使用提示信息进入宝塔面板，绑定宝塔账号后安装策略（LNMP/LAMP）</p>
-<p>在 <strong>-面板设置</strong> 里配置登陆宝塔面板的账号，密码，绑定域名和端口（要在阿里云域名安全组放行对应端口）</p>
-<h2 id="个人网盘系统"><a href="#个人网盘系统" class="headerlink" title="个人网盘系统"></a>个人网盘系统</h2><p>采用 <strong>oneindex世纪互联版</strong> 搭建自己的个人网盘，该网盘有1T空间，不额外占用服务器空间，下载上传文件速度快</p>
-<p>世纪互联版的onedrive主页： <a class="link"   target="_blank" rel="noopener" href="https://portal.partner.microsoftonline.cn/Home" >https://portal.partner.microsoftonline.cn/Home<i class="fas fa-external-link-alt"></i></a></p>
+<p>在 <strong>-面板设置</strong> 里配置登陆宝塔面板的账号，密码，绑定域名和端口（要在安全组/防火墙放行对应端口）</p>
+<h2 id="其他策略"><a href="#其他策略" class="headerlink" title="其他策略"></a>其他策略</h2><h3 id="个人网盘系统"><a href="#个人网盘系统" class="headerlink" title="个人网盘系统"></a>个人网盘系统</h3><p>采用 <strong>oneindex世纪互联版</strong> 搭建个人网盘，该网盘有1T空间，不额外占用服务器空间，下载上传文件速度快</p>
+<p><a href="https://blog.liusheng0.cn/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%9B%98%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/">详见</a></p>
+<h3 id="个人邮箱系统"><a href="#个人邮箱系统" class="headerlink" title="个人邮箱系统"></a>个人邮箱系统</h3><p>采用宝塔邮局管理系统搭建，需要放行20端口</p>
 
         </div>
 
@@ -288,11 +318,11 @@
             <div class="post-copyright-info">
                 <div class="article-copyright-info-container">
     <ul>
-        <li>本文标题：阿里云服务器及域名策略部署</li>
+        <li>本文标题：云服务器及域名策略部署</li>
         <li>本文作者：liuSheng0</li>
         <li>创建时间：2022-05-02 10:39:45</li>
         <li>
-            本文链接：https://blog.liusheng0.cn/编程教程/阿里云服务器及域名策略部署/
+            本文链接：https://blog.liusheng0.cn/编程教程/云服务器及域名策略部署/
         </li>
         <li>
             版权声明：本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -522,7 +552,7 @@
         <aside class="page-aside">
             <div class="post-toc-wrap">
     <div class="post-toc">
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AD%96%E7%95%A5"><span class="nav-text">策略</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-text">服务器</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#liusheng0server%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF"><span class="nav-text">liusheng0server基本信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE%E6%B5%81%E7%A8%8B%E5%8F%8A%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E5%AE%89%E8%A3%85%EF%BC%9A"><span class="nav-text">服务器配置流程及宝塔面板安装：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E5%9C%A8%E9%98%BF%E9%87%8C%E4%BA%91%E8%B4%AD%E4%B9%B0%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-text">1.在阿里云购买服务器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E4%BF%AE%E6%94%B9%E5%AE%9E%E4%BE%8B%E5%AF%86%E7%A0%81%EF%BC%88root%E5%AF%86%E7%A0%81%EF%BC%89"><span class="nav-text">2.修改实例密码（root密码）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E5%AE%89%E5%85%A8%E7%BB%84%E9%85%8D%E7%BD%AE"><span class="nav-text">3.安全组配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E5%88%B0%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-text">4.远程连接到阿里云服务器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-%E9%85%8D%E7%BD%AE%E5%AE%9D%E5%A1%94"><span class="nav-text">5.配置宝塔</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%9B%98%E7%B3%BB%E7%BB%9F"><span class="nav-text">个人网盘系统</span></a></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AD%96%E7%95%A5"><span class="nav-text">策略</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-text">服务器</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#liusheng0server%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF"><span class="nav-text">liusheng0server基本信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE%E6%B5%81%E7%A8%8B%E5%8F%8A%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BF%E5%AE%89%E8%A3%85%EF%BC%9A"><span class="nav-text">服务器配置流程及宝塔面板安装：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-%E8%B4%AD%E4%B9%B0%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-text">1.购买服务器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E4%BF%AE%E6%94%B9%E5%AE%9E%E4%BE%8B%E5%AF%86%E7%A0%81%EF%BC%88root%E5%AF%86%E7%A0%81%EF%BC%89"><span class="nav-text">2.修改实例密码（root密码）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-%E5%AE%89%E5%85%A8%E7%BB%84-%E9%98%B2%E7%81%AB%E5%A2%99%E9%85%8D%E7%BD%AE"><span class="nav-text">3.安全组&#x2F;防火墙配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E5%88%B0%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="nav-text">4.远程连接到云服务器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-%E9%85%8D%E7%BD%AE%E5%AE%9D%E5%A1%94"><span class="nav-text">5.配置宝塔</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%85%B6%E4%BB%96%E7%AD%96%E7%95%A5"><span class="nav-text">其他策略</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%9B%98%E7%B3%BB%E7%BB%9F"><span class="nav-text">个人网盘系统</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%AA%E4%BA%BA%E9%82%AE%E7%AE%B1%E7%B3%BB%E7%BB%9F"><span class="nav-text">个人邮箱系统</span></a></li></ol></li></ol>
     </div>
 </div>
         </aside>
