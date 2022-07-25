@@ -71,6 +71,7 @@ menu:
   Archives: /archives
   Categories: /categories
   Tags: /tags
+  网盘: https://pan.liusheng0.cn/ # https://netdisk.liusheng0.cn/
   # Links: /links
   # About: /about
   # Changelog: /changelog
@@ -213,8 +214,8 @@ pjax:
 # Footer settings
 # ---------------------------------------------------------------------------------------
 footer:
-  since: 2020 # the starting year of your website, Can be null
-  icp: # ICP record number of your website, Can be null
+  since: 2022 # the starting year of your website, Can be null
+  icp: 京ICP备2022020919号-1
   upyun: # url
 
 # ---------------------------------------------------------------------------------------
